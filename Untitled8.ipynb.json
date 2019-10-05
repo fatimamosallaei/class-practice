@@ -1,0 +1,208 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 "
+     ]
+    }
+   ],
+   "source": [
+    "for number in range(1, 21):\n",
+    "  print(number , end=\" \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10 12 14 16 18 20 22 24 26 28 30 "
+     ]
+    }
+   ],
+   "source": [
+    "for number in range(10,31):\n",
+    "    if number%2==0:\n",
+    "        print(number, end=\" \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100 99 98 97 96 95 94 93 92 91 90 89 88 87 86 85 "
+     ]
+    }
+   ],
+   "source": [
+    "for number in range(100,84,-1):\n",
+    "    print(number, end=\" \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "6\n",
+      "8\n",
+      "12\n",
+      "24\n"
+     ]
+    }
+   ],
+   "source": [
+    "for number in range(1,25):\n",
+    "    if 24%number==0:\n",
+    "        print(number)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "j\n",
+      "o\n",
+      "h\n",
+      "n\n"
+     ]
+    }
+   ],
+   "source": [
+    "for alphabet in 'john':\n",
+    "    print(alphabet)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "j\n",
+      "o\n",
+      "h\n",
+      "n\n",
+      "n\n",
+      "h\n",
+      "o\n",
+      "j\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "for alphabet in 'john':\n",
+    "    print(s)\n",
+    "for alphabet in 'john'[::-1]:\n",
+    "    print(alphabet)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "J\n",
+      "o\n",
+      "h\n",
+      "n\n"
+     ]
+    }
+   ],
+   "source": [
+    "str_1 = 'John'\n",
+    "str_2 = reverse(str_1)\n",
+    "for i in range(len(str_1)):\n",
+    "    print(str_1[i]+'-'+str_2[i])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "J-n\n",
+      "o-h\n",
+      "h-o\n",
+      "n-J\n"
+     ]
+    }
+   ],
+   "source": [
+    "str_1 = 'John'\n",
+    "str_2 = (str_1)[::-1]\n",
+    "for i in range(len(str_1)):\n",
+    "    print(str_1[i]+'-'+str_2[i])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
